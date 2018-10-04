@@ -45,6 +45,14 @@ i {
   margin-left: 430px;
   margin-top: 7px;
 }
+
+button#close {
+    position: absolute;
+    top: 15px;
+    left: 438px;
+    z-index: 25;
+}
+
 .navigation {
   width: 10%;
   background-color:#2470a0;
@@ -73,7 +81,8 @@ i {
   padding: 0px;
   width: 250px;
   min-height: 100px;
-  margin-left: 10px;
+  margin-top: 14px;
+  margin-left: 236px;
   list-style-type: none;
 }
 /*main*/
