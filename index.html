@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title>Academy University</title>
+
+</head>
+<body>
+  <header class="header_main">
+    <div class="logo">
+      <img src="images/1.png" alt="" >
+    </div>
+    <div class="wrapper">
+      <h1>Academy<br> University</h1>
+    </div>
+
+    <div class="ham">
+    <button id="hamburger"><i class="fa fa-bars" style="font-size:36px" ></i></button>
+  </div>
+  </header>
+  <main>
+    <nav id="menu" class="menu">
+      <ul class="navigation">
+    	<li><a href="#">Home</a></li>
+    	<li><a href="#">Admissions</a></li>
+    	<li><a href="#">Research</a></li>
+    	<li><a href="#">Campus life</a></li>
+      <li><a href="#">Aboutus</a></li>
+      <li><a href="#">Contactus</a></li>
+      </ul>
+    </nav>
+
+    <script>
+    // DOM
+
+      var btn = window.document.getElementById('hamburger');
+      var menu = window.document.getElementById("menu");
+
+    // Event
+
+      btn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        menu.classList.toggle('active');
+      }, false);
+    </script>
+    <div class="main">
+      <img src="images/mainoo.png" alt="">
+      <div class="hero_text"><h2>WELCOME TO ACADEMY UNIVERSITY</h2></div>
+      <div class="hero_text1"><h4>Help shape the future of Education in Academy University</h4></div>
+      <div class="main_button"><button>Read more</button></div>
+    </div>
+    <div class="course">
+        <h3>COURSES</h3>
+      <div class="ug_course">
+        <div class="container_right">
+          <h4>UG COURSE</h4>
+          <p>Academy university is offering
+          4-year undergraduate degree
+          programs in following disciplines
+          with intake shown against them.</p>
+          <button>Read more</button>
+        </div>
+          <div class="container_left">
+          </div>
+        </div>
+        <div class="pgcrs">
+        <div class="pg_course">
+          <div class="container_r">
+            <h4>PG COURSE</h4>
+            <p>Academy University is offering
+              2-year postgraduate degree
+              programs in following disciplines
+              with intake shown aganist them.</p>
+              <button>Read more</button>
+            </div>
+            <div class="container_l">
+            </div>
+          </div>
+        </div>
+        </div>
+    <div class="Aboutus">
+        <h3>About Us</h3>
+      <div class="fclty">
+        <img src="images/fcltyimg.png" alt="">
+        <h4>Faculty</h4>
+        <i class="fa fa-angle-left" style="font-size:36px;color:black"></i>
+        <button>Read more</button>
+      </div>
+      <div class="libry">
+        <img src="images/libryimg.png" alt="">
+        <h4>Library</h4>
+        <i class="fa fa-angle-right" style="font-size:36px;color:black"></i>
+        <button>Read more</button>
+      </div>
+
+    </div>
+    <div class="Research">
+        <h3>Research</h3>
+      <div class="resrch1">
+        <img src="images/resrch1img.png" alt="">
+        <h4>Light Emission and Lasing Research</h4>
+        <p>Solid state lighting and displays are becoming ubiquitous in our daily
+          lives, finding their place in televisions,cellphones consumer appliances.</p>
+          <p>Read more</p>
+      </div>
+      <div class="resrch2">
+        <img src="images/resrch2img.png" alt="">
+        <h4>Organic Photovoltaics</h4>
+        <p>One of the ways to satisfy the emerging need for sustainable
+           energy sources is via the production of large-scale,cheap and
+           easy to process solar cells.</p>
+           <p>Read more</p>
+      </div>
+    </div>
+    <div class="Admission">
+        <h3>Admission</h3>
+      <div class="container">
+        <img src="images/admi.png" alt="">
+        <div class="centered_up"><h4>Ready to take your skils to next level</h4></div>
+        <div class="centered_middle"><h5>start learning the skill you need,start your free trail today</h5></div>
+        <div class="centered_bottom"><button>Join us</button></div>
+      </div>
+    </div>
+    <div class="Activities">
+      <div class="Activities_header">
+        <h3>Activities</h3>
+      </div>
+           <h4>NEWS</h4>
+         <div>
+            <figure>
+              <img src="images/news1.png" alt="">
+            </figure>
+            <p>20-Aug</p>
+            <p>Registration for student publications</P>
+        </div>
+        <div>
+           <figure>
+             <img src="images/news2.png" alt="">
+           </figure>
+           <p>25-Aug</p>
+           <p>Academy university invities project proposal</P>
+       </div>
+       <button>View all</button>
+       <div>
+         <h4>EVENTS</h4>
+          <figure>
+            <img src="images/event1.png" alt="">
+          </figure>
+          <p>24-Aug</p>
+          <p>Center for nano science and nano technology org.</P>
+      </div>
+        <div>
+         <figure>
+           <img src="images/event2.png" alt="">
+         </figure>
+         <p>27-Aug</p>
+         <p>Availability of software testing </P>
+        </div>
+     <button>view all</button>
+      </div>
+      <div class="campus_placement">
+        <h3>Campus Placements</h3>
+        <div class="wipro">
+            <img src="images/wipro.png" alt="">
+            <i class="fa fa-angle-left" style="font-size:36px;color:black"></i>
+          <img src="images/accentr.png" alt="">
+          <i class="fa fa-angle-right" style="font-size:36px;color:black"></i>
+        </div>
+      </div>
+        <div class="footer_up">
+          <div class="left">
+          <img src="images/logodown.png" alt="">
+          <p>Academy<br>University</p>
+          <img src="images/in.png" alt="">
+          <img src="images/fblogo.png" alt="">
+          <img src="images/youtubelogo.png" alt="">
+          <img src="images/twitterlogo.png" alt="">
+        </div>
+        <div class="right">
+          <h4>Contact us</h4>
+          <img src="images/call.png" alt="">
+          <p>080-04X-XXX</p>
+          <img src="images/mail.png" alt="">
+          <p>academyinfo@server.com</p>
+          <img src="images/lction.png" alt="">
+          <p>Banglore,KA</p>
+        </div>
+      </div>
+  </main>
+  <footer>
+    <p>&copy; copyright 2018 by academy university all rights reserved</p>
+  </footer>
+</body>
+</html>
