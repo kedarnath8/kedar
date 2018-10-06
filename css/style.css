@@ -334,18 +334,16 @@ margin-left: 50px;
   width: 80%;
   margin-left: 50px;
 }
-.resrch1 p:last-child {
-  text-decoration: underline;
-  margin-left: 360px;
+.Research a {
+  float: right;
+  margin-right: 50px;
 }
+
 .resrch2 p {
   width: 80%;
   margin-left: 50px;
 }
-.resrch2 p:last-child {
-  text-decoration: underline;
-  margin-left: 360px;
-}
+
 /*admission*/
 .Admission h3{
   padding-left: 30px;
@@ -353,6 +351,7 @@ margin-left: 50px;
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
+  margin-top: 50px;
 }
 .Admission button {
   cursor: pointer;
