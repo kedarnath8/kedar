@@ -1,9 +1,19 @@
-$(".drop").click(function(){
-  $(".content").toggle(300);
-  $(".link").toggleClass("fa-ellipsis-v fa-ellipsis-h");
+$( document ).ready(function() {
+
+$( ".cross" ).hide();
+$( ".menu" ).hide();
+$( ".hamburger" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".hamburger" ).hide();
+$( ".cross" ).show();
+});
 });
 
-$(".hover_menu").click(function(){
-  $(".pc_nav").toggle(400);
-  $(".hover_menu i").toggleClass("fa-bars fa-remove");
+$( ".cross" ).click(function() {
+$( ".menu" ).slideToggle( "slow", function() {
+$( ".cross" ).hide();
+$( ".hamburger" ).show();
+});
+});
+
 });

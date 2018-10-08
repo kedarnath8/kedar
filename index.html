@@ -12,127 +12,165 @@
 </head>
 <body>
   <header class="header_main">
-    <div class="logo">
-      <img src="images/1.png" alt="" >
-    </div>
-    <div class="wrapper">
-      <h1>Academy<br> University</h1>
-    </div>
-
-    <div class="ham">
-    <button id="hamburger"><i class="fa fa-bars" style="font-size:36px" ></i></button>
-  </div>
+        <div class="logom">
+          <img src="images/1.png" alt="" >
+        </div>
+        <div class="logopc">
+          <img src="images/pc/pclogo.png" alt="" >
+        </div>
+        <div class="wrapper">
+          <h1>Academy<br>University</h1>
+        </div>
+          <button class="hamburger">&#9776;</button>
+          <button class="cross">&#735;</button>
   </header>
   <main>
-    <div></div>
-    <nav id="menu" class="menu">
-      <button id="close"><i class="fa fa-close" style="font-size:36px"></i></button>
-      <ul class="navigation">
-    	<li><a href="#">Home</a></li>
-    	<li><a href="#">Admissions</a></li>
-    	<li><a href="#">Research</a></li>
-    	<li><a href="#">Campus life</a></li>
-      <li><a href="#">Aboutus</a></li>
-      <li><a href="#">Contactus</a></li>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="#">Research</a></li>
+        <li><a href="#">Campus life</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
       </ul>
-    </nav>
-
-    <script>
-    // DOM
-
-      var btn = window.document.getElementById('hamburger');
-      var menu = window.document.getElementById("menu");
-
-    // Event
-
-      btn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        menu.classList.toggle('active');
-      }, false);
-    </script>
+    </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+      <script src="js/script.js"></script>
     <div class="main">
-      <img src="images/mainoo.png" alt="">
+      <div class="mob_main"><img src="images/mainoo.png" alt=""></div>
+      <div class="pc_main"><img src="images/pc/main.png" alt=""></div>
       <div class="hero_text"><h2>WELCOME TO ACADEMY UNIVERSITY</h2></div>
       <div class="hero_text1"><h4>Help shape the future of Education in Academy University</h4></div>
       <div class="main_button"><button>Read more</button></div>
     </div>
     <div class="course">
-        <h3>COURSES</h3>
-      <div class="ug_course">
-        <div class="container_right">
-          <h4>UG COURSE</h4>
-          <p>Academy university is offering
-          4-year undergraduate degree
-          programs in following disciplines
-          with intake shown against them.</p>
-          <button>Read more</button>
-        </div>
-          <div class="container_left">
+            <h3>COURSES</h3>
+          <div class="ug_course">
+            <div class="container_right">
+              <h4>UG COURSE</h4>
+              <p>Academy university is offering
+                4-year undergraduate degree
+                programs in following disciplines
+                with intake shown against them.</p>
+                <button>Read more</button>
+            </div>
+            <div class="container_left">
+            </div>
+          </div>
+          <div class="pgcrs">
+            <div class="pg_course">
+              <div class="container_r">
+                <h4>PG COURSE</h4>
+                <p>Academy University is offering
+                  2-year postgraduate degree
+                  programs in following disciplines
+                  with intake shown aganist them.</p>
+                  <button>Read more</button>
+              </div>
+              <div class="container_l">
+              </div>
+            </div>
           </div>
         </div>
-        <div class="pgcrs">
-        <div class="pg_course">
-          <div class="container_r">
-            <h4>PG COURSE</h4>
-            <p>Academy University is offering
-              2-year postgraduate degree
-              programs in following disciplines
-              with intake shown aganist them.</p>
+        <div class="Aboutus">
+              <h3>About Us</h3>
+            <div class="mob_about">
+            <div class="fclty">
+              <img src="images/fcltyimg.png" alt="">
+              <h4>Faculty</h4>
+              <i class="fa fa-angle-left" style="font-size:36px;color:black"></i>
               <button>Read more</button>
             </div>
-            <div class="container_l">
+              <div class="libry">
+                <img src="images/libryimg.png" alt="">
+                <h4>Library</h4>
+                <i class="fa fa-angle-right" style="font-size:36px;color:black"></i>
+                <button>Read more</button>
+              </div>
+            </div>
+            <div class="pc_about">
+              <div class="faculty">
+                <img src="images/pc/fclty.png" alt="">
+                <h4>Faculty</h4>
+                <button>Read more</button>
+              </div>
+              <div class="library">
+                <img src="images/pc/lbry.png" alt="">
+                <h4>Library</h4>
+                <button>Read more</button>
+              </div>
+              <div class="clndr">
+                <img src="images/pc/clndr.png" alt="">
+                <h4>Academic Calender</h4>
+                <button>Read more</button>
+              </div>
+              <div class="placement">
+                <img src="images/pc/plcmnt.png" alt="">
+                <h4>Students Placements</h4>
+                <button>Read more</button>
+              </div>
             </div>
           </div>
+        <div class="Research">
+            <h3>Research</h3>
+            <div class="mob_research">
+              <div class="resrch1">
+                <img src="images/resrch1img.png" alt="">
+                <h4>Light Emission and Lasing Research</h4>
+                <p>Solid state lighting and displays are becoming ubiquitous in our daily
+                  lives, finding their place in televisions,cellphones consumer appliances.</p>
+                  <a href="read">Read more</a>
+                </div>
+                <div class="resrch2">
+                  <img src="images/resrch2img.png" alt="">
+                  <h4>Organic Photovoltaics</h4>
+                  <p>One of the ways to satisfy the emerging need for sustainable
+                    energy sources is via the production of large-scale,cheap and
+                    easy to process solar cells.</p>
+                    <a href="read">Read more</a>
+                  </div>
+                </div>
+            <div class="pc_research">
+              <div class="resrch1">
+            <div class="research1">
+            <h4>Light Emission and Lasing Research</h4>
+            <p>Solid state lighting and displays are becoming ubiquitous in our daily lives,
+              finding their place in televisions,cellphones,lamps and many common consumer appliances.
+              In the opotoelectronics group, we investigate a range of polymeric and organic -inorganic
+               hybrid materials for applications in solid-state light-emitting devices. </p>
+              <button>Read more</button>
+          </div>
         </div>
+        <div class="resrch2">
+          <div class="research2">
+          <h4>Organic Photovoltaics</h4>
+          <p>One of the ways to satisfy the emerging need for sustainable energy sources is
+            via the production of large-scale,cheap and easy to process solar cells.
+            This has made the development of organic photovoltaic devices based on carbon based
+            semiconductors an exciting and rapidly growing field of research and technology. </p>
+            <button>Read more</button>
+          </div>
         </div>
-    <div class="Aboutus">
-        <h3>About Us</h3>
-      <div class="fclty">
-        <img src="images/fcltyimg.png" alt="">
-        <h4>Faculty</h4>
-        <i class="fa fa-angle-left" style="font-size:36px;color:black"></i>
-        <button>Read more</button>
       </div>
-      <div class="libry">
-        <img src="images/libryimg.png" alt="">
-        <h4>Library</h4>
-        <i class="fa fa-angle-right" style="font-size:36px;color:black"></i>
-        <button>Read more</button>
       </div>
-
-    </div>
-    <div class="Research">
-        <h3>Research</h3>
-      <div class="resrch1">
-        <img src="images/resrch1img.png" alt="">
-        <h4>Light Emission and Lasing Research</h4>
-        <p>Solid state lighting and displays are becoming ubiquitous in our daily
-          lives, finding their place in televisions,cellphones consumer appliances.</p>
-          <a href="read">Read more</a>
-      </div>
-      <div class="resrch2">
-        <img src="images/resrch2img.png" alt="">
-        <h4>Organic Photovoltaics</h4>
-        <p>One of the ways to satisfy the emerging need for sustainable
-           energy sources is via the production of large-scale,cheap and
-           easy to process solar cells.</p>
-           <a href="read">Read more</a>
-      </div>
-    </div>
-    <div class="Admission">
+      <div class="Admission">
         <h3>Admission</h3>
-      <div class="container">
-        <img src="images/admi.png" alt="">
-        <div class="centered_up"><h4>Ready to take your skils to next level</h4></div>
-        <div class="centered_middle"><h5>start learning the skill you need,start your free trail today</h5></div>
-        <div class="centered_bottom"><button>Join us</button></div>
+        <div>
+          <div class="container">
+            <div id="mobile" class="mob_admin"><img src="images/admi.png" alt=""></div>
+            <div id="pc" class="pc_admin"><img src="images/pc/admin.png" alt=""></div>
+            <div class="centered_up"><h4>Ready to take your skils to next level</h4></div>
+            <div class="centered_middle"><h5>start learning the skill you need,start your free trail today</h5></div>
+            <div class="centered_bottom"><button>Join us</button></div>
+          </div>
+        </div>
       </div>
-    </div>
     <div class="Activities">
-      <div class="Activities_header">
-        <h3>Activities</h3>
-      </div>
-           <h4>NEWS</h4>
+        <div class="Activities_header">
+          <h3>Activities</h3>
+        </div>
+            <h4>NEWS</h4>
          <div>
             <figure>
               <img src="images/news1.png" alt="">
@@ -147,15 +185,15 @@
            <p>25-Aug</p>
            <p>Academy university invities project proposal</P>
        </div>
-       <button>View all</button>
-       <div>
+        <button>View all</button>
+        <div>
          <h4>EVENTS</h4>
           <figure>
             <img src="images/event1.png" alt="">
           </figure>
           <p>24-Aug</p>
           <p>Center for nano science and nano technology org.</P>
-      </div>
+        </div>
         <div>
          <figure>
            <img src="images/event2.png" alt="">
