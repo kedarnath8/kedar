@@ -50,9 +50,6 @@ i {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-.hamburger button {
-  float: right;
-}
 /* header{
 	width:30%;
 	background:#ffffff;
