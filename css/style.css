@@ -66,6 +66,7 @@ i {
   line-height:40px;
   padding:5px 15px 0px 15px;
   color:white;
+  margin-left: 350px;
   border:0;
   font-size:1.4em;
   font-weight:bold;
@@ -89,7 +90,7 @@ i {
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%;height: 150px;margin-left: 400px; margin-top:0px; background:#2470a0;  position:absolute; text-align:center; font-size:12px;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%;height: 150px;margin-left: 350px; margin-top:0px; background:#2470a0;  position:absolute; text-align:center; font-size:12px;}
 .menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
 .menu li {display: block;   padding:5px;  color: #000;}
 .menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
