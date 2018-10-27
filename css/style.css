@@ -671,6 +671,9 @@ display: none;
 .menu {
   display: block;
 }
+.menu_mob {
+  display: none;
+}
 
  ul li {
   display: inline;
