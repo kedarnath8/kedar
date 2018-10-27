@@ -5,12 +5,18 @@
   height: 55px;
   margin-bottom:0px;
 }
+.body {
+  width: 97%;
+}
 .logom {
   margin-top: -5px;
   margin-bottom: 0px;
   float: left;
 }
 .logopc {
+  display: none;
+}
+.pc_campus {
   display: none;
 }
 .logo img {
@@ -41,9 +47,13 @@ i {
   cursor: pointer;
 }
 /*hamburger*/
-.menu{
+.menu_pc {
+  display: none;
+}
+.menu_mob{
   font-family: 'Noto Sans', sans-serif;
 	margin:0;
+  position: fixed;
 	width:30%;
 	height:25vh;
   	background:#2470a0;
@@ -58,12 +68,13 @@ i {
 	border-bottom:1px solid #dddddd;
 } */
 .hamburger{
-  background:#2470a0;
-  position:absolute;
+  background:none;
   top:0;
   right:0;
-  margin-top: 15px;
+  margin-top: 7px;
   line-height:40px;
+  margin-right: 5px;
+  margin-left: 349px;
   padding:5px 15px 0px 15px;
   color:white;
   border:0;
@@ -74,11 +85,12 @@ i {
   z-index:10000000000000;
 }
 .cross{
-  background:#2470a0;
-  position:absolute;
+  background:none;
   top:0px;
   right:0;
+  margin-right: 10px;
   margin-top: 15px;
+  margin-left: 349px;
   padding:7px 15px 0px 15px;
   color:white;
   border:0;
@@ -89,14 +101,52 @@ i {
   outline:none;
   z-index:10000000000000;
 }
-.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:30%;height: 150px;margin-left: 350px; margin-top:0px; background:#2470a0;  position:absolute; text-align:center; font-size:12px;}
-.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
-.menu li {display: block;   padding:5px;  color: #000;}
-.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
-.menu ul li a { text-decoration:none;  margin: 0px; color:white;}
-.menu ul li a:hover {  color: #666; text-decoration:none;}
-.menu a{text-decoration:none; color:white;}
-.menu a:hover{text-decoration:none; color:#666;}
+.menu_mob{
+  z-index:1000000;
+  font-weight:bold;
+  font-size:0.8em;
+  width:30%;
+  height: 150px;
+  margin-left: 350px;
+  margin-top:0px;
+  background:#2470a0;
+  position:absolute;
+  text-align:center;
+  font-size:12px;
+}
+.menu_mob ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+}
+.menu_mob li {
+  display: block;
+  padding:5px;
+  color: #000;
+}
+.menu_mob li:hover{
+  display: block;
+  background:#ffffff;
+  padding:15px 0 15px 0;
+  border-bottom:#dddddd 1px solid;}
+.menu_mob ul li a {
+  text-decoration:none;
+  margin: 0px;
+  color:white;
+}
+.menu_mob ul li a:hover {
+  color: #666;
+  text-decoration:none;
+}
+.menu_mob a{
+  text-decoration:none;
+  color:white;
+}
+.menu_mob a:hover{
+  text-decoration:none;
+  color:#666;
+}
 
 .glyphicon-home{
   color:white;
@@ -378,6 +428,7 @@ margin-left: 50px;
   font-size: 12px;
   float: right;
   margin-right: 50px;
+  color: black;
 }
 
 .resrch2 p {
@@ -517,6 +568,9 @@ margin-left: 50px;
 }
 
 /*footerup*/
+.pc_f {
+  display: none;
+}
 .footer_up {
   background-color: #c4cfcf;
   width: 480px;
@@ -583,12 +637,18 @@ footer p {
   #mobile {
     display: none;
   }
-
+  #mob_campus {
+    display: none;
+  }
+  body {
+    width: 100%;
+  }
   .header_main {
     background-color: #2470a0;
-    width: 1200px;
+    width: auto;
     height: 100px;
     margin-bottom:0px;
+    z-index: 1;
   }
 
   .logom {
@@ -602,21 +662,24 @@ display: none;
   margin-top: -60px;
   z-index: -1;
 }
-.ham {
+.hamburger {
   display: none;
 }
-.menu #close {
+.cross {
   display: none;
+}
+.menu {
+  display: block;
 }
 
-.menu ul li {
+ ul li {
   display: inline;
   float: left;
   margin-top: -120px;
   padding: 60px;
-
 }
-.menu li a{
+
+.menu_pc li a{
   color:  white;
   text-decoration: none;
 }
@@ -626,7 +689,6 @@ display: none;
  }
 .pc_main img {
   margin-top: 10px;
-  z-index: 1;
 }
 .main {
   position: relative;
@@ -690,14 +752,14 @@ display: none;
   width: 500px;
   height: 250px;
   float: left;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 .pg_course {
   background-color: #2470a0;
   width: 500px;
   height: 250px;
   float: right;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 .container_right {
   height: 250px;
@@ -765,7 +827,7 @@ display: none;
 }
 .library {
   float: left;
-  margin-left: 75px;
+  margin-left: 66.6px;
 }
 .library h4 {
   text-align: center;
@@ -775,7 +837,7 @@ display: none;
 }
 .clndr {
   float: left;
-  margin-left: 75px;
+  margin-left: 66.6px;
 }
 .clndr h4 {
   text-align: center;
@@ -804,6 +866,23 @@ display: none;
 }
 .mob_research {
   display: none;
+}
+.resrch1 {
+  background-color: #2470a0;
+  width: 1000px;
+  height: 300px;
+  margin-left: 100px;
+}
+.research1 {
+  background-image: url(..//images/pc/research1.png);
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.research1 h4 {
+  float: right;
+  margin-right: 110px;
+  font-size: 20px;
+  color: white;
 }
 .resrch1 {
   background-color: #2470a0;
@@ -859,7 +938,6 @@ display: none;
   margin-right: 250px;
 }
 
-}
 /*Admission*/
 .Admission h3 {
   background-color:  #2470a0;
@@ -886,22 +964,25 @@ display: none;
 }
 .centered_up {
   position: absolute;
-  top: 15%;
-  left: 25%;
+  top: 20%;
+  left: 30%;
+
 }
 .centered_up h4{
   color: white;
   font-weight: normal;
+  font-size: 25px;
 }
 .centered_middle {
   position: absolute;
   top: 40%;
-  left: 18%;
+  left: 28%;
 
 }
 .centered_middle h5 {
   color: white;
   font-weight: normal;
+  font-size: 18px;
 }
 .centered_bottom {
   position: absolute;
@@ -913,6 +994,7 @@ display: none;
   border-radius: 5px;
   color: white;
   background-color: #3e2e1e;
+  font-size: 20px;
 }
 /*Activities*/
 
@@ -924,4 +1006,122 @@ display: none;
   background-color: #2470a0;
   font-weight: normal;
   margin-top: 10px;
+}
+.conatiner  {
+  margin-left:50px;
+}
+.mob_act {
+  display: none;
+}
+.eve_content{
+    width: 570px;
+    overflow:hidden;
+    float: left;
+  }
+
+  .eve_content a{
+    color: #098cc4;
+    font-size: 14px;
+    float: left;
+  }
+
+
+  .eve_content h4{
+    padding-top: 0px;
+    padding-bottom:0px;
+    font-size: 18px;
+  }
+
+  .eve_content img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .eve_content p{
+    padding-left: 10px;
+    padding-bottom: 4px;
+    font-size: 14px;
+
+  }
+
+  .bold{
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding: 4px;
+  }
+
+  .eve_img{
+    float: left;
+  }
+  .eve_img img{
+    height: 150px;
+    width: 200px;
+  }
+
+/*campus placement*/
+.campus_placement {
+  margin-top: -700px;
+}
+.campus_placement h3 {
+  padding-left: 30px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: white;
+  background-color: #2470a0;
+  font-weight: normal;
+  margin-top: 750px;
+}
+.mob_campus {
+  display: none;
+}
+.pc_campus img:first-child {
+  margin-left: 0px;
+}
+.pc_campus img {
+  padding: 33px;
+}
+/*footerup*/
+.pc_f {
+  background-color: #c4cfcf;
+
+}
+.mob_f {
+  display: none;
+}
+.pc_f {
+  margin-left: 20px;
+}
+.left {
+  width: 240px;
+}
+.left img {
+ padding-bottom: 15px;
+}
+.middle1 ul li:first-child {
+  margin-left: 150px;
+}
+.middle1 ul li {
+  padding: 30px;
+  margin-top: -250px;
+}
+.right {
+  margin-left: 950px;
+  margin-top: -200px;
+}
+.right p {
+  display: inline;
+}
+.right img {
+  padding-top: 20px;
+}
+/*footer*/
+footer p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: -80px;
+
+}
+footer {
+  background-color: #2470a0;
+  margin-top: 100px;
 }
