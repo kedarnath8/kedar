@@ -611,8 +611,12 @@ margin-left: 50px;
 
 
 }
+.right {
+  margin-top: -10px;
+}
 .right h4 {
   font-size: 13px;
+  margin-bottom: 12px;
 }
 .right p {
   margin-right: 50px;
