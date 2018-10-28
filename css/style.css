@@ -611,11 +611,21 @@ margin-left: 50px;
 
 
 }
+.right h4 {
+  font-size: 13px;
+}
 .right p {
   margin-right: 50px;
-  margin-top: -7px;
+  margin-top: 0px;
   font-size: 10px;
+  display: inline;
 }
+.right img {
+  padding: 2px;
+  margin-top: 5px;
+  display: inline;
+}
+/*footer*/
 h3 {
   background-color: #2470a0;
 }
@@ -676,12 +686,19 @@ display: none;
   display: inline;
   float: left;
   margin-top: -120px;
-  padding: 60px;
+  padding: 50px;
 }
 
 .menu_pc li a{
   color:  white;
   text-decoration: none;
+  font-family: 'Roboto Slab',serif;
+}
+.menu_pc li:nth-child(4) {
+  margin-left: 130px;
+}
+.menu_pc li:nth-child(5) {
+  margin-left: -20px;
 }
 /*main*/
  .mob_main {
@@ -746,6 +763,7 @@ display: none;
   padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Roboto Slab',serif;
 }
 .ug_course {
   background-color: #2470a0;
@@ -770,14 +788,18 @@ display: none;
 .container_right h4 {
   text-align: center;
   margin-left: 270px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 0px;
+  font-family: 'Roboto Slab',serif;
+  color: white;
 }
 .container_right p {
   float: right;
   font-size: 18px;
   margin-left: 270px;
   text-align: center;
+  font-family: 'Roboto Slab',serif;
+  color: white;
 }
 .container_right button {
   margin-left: 350px;
@@ -791,14 +813,18 @@ display: none;
 .container_r h4 {
   text-align: center;
   margin-left: 270px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 0px;
+  font-family: 'Roboto Slab',serif;
+  color: white;
 }
 .container_r p {
   float: right;
   font-size: 18px;
   margin-left: 270px;
   text-align: center;
+  font-family: 'Roboto Slab',serif;
+  color: white;
 }
 .container_r button {
   margin-left: 350px;
@@ -811,6 +837,7 @@ display: none;
   padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Roboto Slab',serif;
  }
 .mob_about {
   display: none;
@@ -821,6 +848,7 @@ display: none;
 }
 .faculty h4 {
   text-align: center;
+  font-family: 'Roboto Slab',serif;
 }
 .faculty button {
   margin-left: 60px;
@@ -831,6 +859,7 @@ display: none;
 }
 .library h4 {
   text-align: center;
+  font-family: 'Roboto Slab',serif;
 }
 .library button {
   margin-left: 60px;
@@ -841,6 +870,7 @@ display: none;
 }
 .clndr h4 {
   text-align: center;
+  font-family: 'Roboto Slab',serif;
 }
 .clndr button {
   margin-left: 60px;
@@ -851,6 +881,7 @@ display: none;
 }
 .placement h4 {
   text-align: center;
+  font-family: 'Roboto Slab',serif;
 }
 .placement button {
   margin-left: 60px;
@@ -863,6 +894,7 @@ display: none;
   padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Roboto Slab',serif;
 }
 .mob_research {
   display: none;
@@ -883,6 +915,7 @@ display: none;
   margin-right: 110px;
   font-size: 20px;
   color: white;
+  font-family: 'Roboto Slab',serif;
 }
 .resrch1 {
   background-color: #2470a0;
@@ -900,11 +933,13 @@ display: none;
   margin-right: 110px;
   font-size: 20px;
   color: white;
+  font-family: 'Roboto Slab',serif;
 }
 .research1 p {
   float: right;
   margin-left:460px;
   color: white;
+  font-family: 'Roboto Slab',serif;
 }
 .research1 button {
   float: right;
@@ -927,11 +962,13 @@ display: none;
   margin-right: 150px;
   font-size: 20px;
   color: white;
+  font-family: 'Roboto Slab',serif;
 }
 .research2 p {
   float: right;
   margin-left:460px;
   color: white;
+  font-family: 'Roboto Slab',serif;
 }
 .research2 button {
   float: right;
@@ -946,6 +983,7 @@ display: none;
   padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
+  font-family: 'Roboto Slab',serif;
 }
 .Admission button {
   cursor: pointer;
@@ -1006,6 +1044,7 @@ display: none;
   background-color: #2470a0;
   font-weight: normal;
   margin-top: 10px;
+  font-family: 'Roboto Slab',serif;
 }
 .conatiner  {
   margin-left:50px;
@@ -1023,6 +1062,7 @@ display: none;
     color: #098cc4;
     font-size: 14px;
     float: left;
+    margin-left: 220px;
   }
 
 
@@ -1030,6 +1070,7 @@ display: none;
     padding-top: 0px;
     padding-bottom:0px;
     font-size: 18px;
+    font-family: 'Roboto Slab',serif;
   }
 
   .eve_content img{
@@ -1041,6 +1082,7 @@ display: none;
     padding-left: 10px;
     padding-bottom: 4px;
     font-size: 14px;
+    font-family: 'Roboto Slab',serif;
 
   }
 
@@ -1070,6 +1112,7 @@ display: none;
   background-color: #2470a0;
   font-weight: normal;
   margin-top: 750px;
+  font-family: 'Roboto Slab',serif;
 }
 .mob_campus {
   display: none;
@@ -1102,7 +1145,8 @@ display: none;
 }
 .middle1 ul li {
   padding: 30px;
-  margin-top: -250px;
+  margin-top: -270px;
+  font-family: 'Roboto Slab',serif;
 }
 .right {
   margin-left: 950px;
@@ -1110,6 +1154,7 @@ display: none;
 }
 .right p {
   display: inline;
+  font-family: 'Roboto Slab',serif;
 }
 .right img {
   padding-top: 20px;
@@ -1119,6 +1164,7 @@ footer p {
   font-size: 20px;
   text-align: center;
   margin-top: -80px;
+  font-family: 'Roboto Slab',serif;
 
 }
 footer {
