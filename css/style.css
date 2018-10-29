@@ -107,10 +107,10 @@ i {
   font-size:0.8em;
   width:30%;
   height: 150px;
-  margin-left: 350px;
+  margin-left: 332px;
   margin-top:0px;
   background:#2470a0;
-  position:absolute;
+  position:fixed;
   text-align:center;
   font-size:12px;
 }
@@ -204,6 +204,7 @@ a{color:#336699;} */
   position: absolute;
   top: 70%;
   left: 40%;
+  margin-left: 46px;
 }
 .main_button button {
   border-radius: 5px;
