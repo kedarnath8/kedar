@@ -241,7 +241,7 @@ a{color:#336699;} */
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
-  width:100%;
+
 }
 .course h4 {
   font-family: 'Roboto Slab',serif;
@@ -353,7 +353,7 @@ button {
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
-  width: 100%;
+
 }
 .pc_about {
   display: none
@@ -424,7 +424,7 @@ button {
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
-  width: 100%;
+
 }
 .pc_research {
   display: none;
@@ -470,7 +470,6 @@ margin-left: 50px;
   color: white;
   font-weight: normal;
   margin-top: 50px;
-  width: 100%;
 }
 .Admission {
   margin-top: 30px;
@@ -572,7 +571,6 @@ margin-left: 50px;
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
-  width: 100%;
 }
 .Activities button {
   background-color: #2470a0;
@@ -584,7 +582,6 @@ margin-left: 50px;
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
-  width: 100%;
 }
  .wipro i {
   float: left;
