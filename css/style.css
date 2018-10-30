@@ -695,9 +695,9 @@ footer p {
   #mob_campus {
     display: none;
   }
-  body {
-    width: 100%;
-  }
+  /* body {
+    width: 97%;
+  } */
   .header_main {
     background-color: #2470a0;
     width: auto;
@@ -746,6 +746,12 @@ display: none;
   margin-left: -20px;
 }
 /*main*/
+
+.container_wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  /* background-color: red; */
+}
  .mob_main {
   display: none;
  }
@@ -1208,6 +1214,7 @@ display: none;
 footer p {
   font-size: 20px;
   text-align: center;
+  padding: 0px;
   margin-top: -80px;
   font-family: 'Roboto Slab',serif;
 
