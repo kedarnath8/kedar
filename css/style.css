@@ -58,6 +58,9 @@ button {
 i {
   cursor: pointer;
 }
+.container_wrapper {
+  width: 480px;
+}
 /*hamburger*/
 .menu_pc {
   display: none;
