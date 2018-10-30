@@ -5,9 +5,7 @@
   height: 55px;
   margin-bottom:0px;
 }
-.body {
-  width: 97%;
-}
+
 .logom {
   margin-top: -5px;
   margin-bottom: 0px;
@@ -15,6 +13,19 @@
 }
 .logopc {
   display: none;
+}
+.logom img:first-child {
+  position: relative;
+  z-index: 2;
+  margin-right: -102px;
+  margin-bottom: -25px;
+  margin-left: 20px;
+}
+.logom img:last-child {
+  position: absolute;
+  z-index: 1;
+  margin-top: -26px;
+  margin-left: 27px;
 }
 .pc_campus {
   display: none;
@@ -24,24 +35,25 @@
 }
 .wrapper {
   float: left;
-  margin-top: 20px;
-  margin-left: -55px;
+  margin-top: 37px;
+  margin-left: 10px;
+  margin-right: -45px;
+  margin-bottom: -45px;
+  position: relative;
+  z-index: 1;
 
 }
 .wrapper h1 {
-  font-size: 10px;
+  font-size: 15px;
 }
 
-body {
-  width: 480px;
-}
 h3 {
   font-family: 'Roboto Slab',serif;
   font-size: 20px;
 }
 button {
   font-family: 'Roboto Slab',serif;
-  font-size: 10px;
+  font-size: 15px;
 }
 i {
   cursor: pointer;
@@ -101,7 +113,7 @@ i {
   outline:none;
   z-index:10000000000000;
 }
-.menu_mob{
+.menu_mob {
   z-index:1000000;
   font-weight:bold;
   font-size:0.8em;
@@ -128,7 +140,7 @@ i {
 .menu_mob li:hover{
   display: block;
   background:#ffffff;
-  padding:15px 0 15px 0;
+  /* padding:15px 0 15px 0; */
   border-bottom:#dddddd 1px solid;}
 .menu_mob ul li a {
   text-decoration:none;
@@ -187,7 +199,10 @@ a{color:#336699;} */
 }
 .hero_text h2 {
   color: white;
-  font-size: 15px;
+  font-size: 34px;
+  margin-right: 41px;
+  margin-left: -71px;
+  margin-top: 10px;
   font-weight: normal;
 }
 .hero_text1 {
@@ -197,7 +212,10 @@ a{color:#336699;} */
 }
 .hero_text1 h4 {
   color: white;
-  font-size: 12.5px;
+  font-size: 20px;
+  margin-top: 46px;
+  margin-left: -6px;
+  margin-right: 50px;
   font-weight: normal;
 }
 .main_button {
@@ -210,6 +228,10 @@ a{color:#336699;} */
   border-radius: 5px;
   color: white;
   background-color: #3e2e1e;
+  margin-left: -41px;
+  margin-right: 32px;
+  margin-top: -15px;
+  margin-bottom: -10px;
 }
 
 /*courses*/
@@ -219,6 +241,7 @@ a{color:#336699;} */
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
+  width: 97%;
 }
 .course h4 {
   font-family: 'Roboto Slab',serif;
@@ -330,6 +353,7 @@ button {
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
+  width: 97%;
 }
 .pc_about {
   display: none
@@ -400,6 +424,7 @@ button {
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
+  width: 97%;
 }
 .pc_research {
   display: none;
@@ -445,12 +470,17 @@ margin-left: 50px;
   color: white;
   font-weight: normal;
   margin-top: 50px;
+  width: 97%;
 }
 .Admission {
   margin-top: 30px;
 }
 .pc_admin {
   display: none;
+}
+.Admission img {
+  margin-top: -19.6px;
+  margin-bottom: -24px;
 }
 .Admission button {
   cursor: pointer;
@@ -475,6 +505,9 @@ margin-left: 50px;
 .centered_up h4{
   color: white;
   font-weight: normal;
+  font-size: 20px;
+  margin-left: -50px;
+  margin-top: -5px;
 }
 .centered_middle {
   position: absolute;
@@ -485,6 +518,10 @@ margin-left: 50px;
 .centered_middle h5 {
   color: white;
   font-weight: normal;
+  font-size: 17px;
+  margin-top: -16px;
+  margin-left: 4px;
+  margin-right: 78px;
 }
 .centered_bottom {
   position: absolute;
@@ -535,6 +572,7 @@ margin-left: 50px;
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
+  width: 97%;
 }
 .Activities button {
   background-color: #2470a0;
@@ -546,6 +584,7 @@ margin-left: 50px;
   padding-bottom: 3px;
   color: white;
   font-weight: normal;
+  width: 97%;
 }
 .wipro i {
   float: left;
@@ -638,6 +677,7 @@ footer {
   background: #2470a0;
   margin: 0px;
   padding: 0.5px;
+  width: 480px;
 }
 footer p {
   text-align: center;
