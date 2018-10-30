@@ -586,11 +586,11 @@ margin-left: 50px;
   font-weight: normal;
   width: 97%;
 }
-.wipro i {
+ .wipro i {
   float: left;
   margin-left: 10px;
   margin-top: 20px;
-}
+ }
 .wipro i:last-child {
   float: right;
   margin-right: 5px;
@@ -601,12 +601,11 @@ margin-left: 50px;
   height: 10px;
 }
 .wipro img {
-  margin-left: 16%;
+  padding: 0px 15px 0px 15px;
 }
-.wipro img:last-child{
-  margin-left: 150px;
+.wipro img {
+  margin-left: 5px;
 }
-
 /*footerup*/
 .pc_f {
   display: none;
