@@ -282,6 +282,9 @@ a{color:#336699;} */
   margin-top: -128px;
   position: absolute;
 }
+.main_button button:hover {
+  background-color: #2470a0;
+}
 
 /*courses*/
 .head_tagc h3 {
@@ -349,7 +352,10 @@ a{color:#336699;} */
   margin-left: 96px;
   margin-top:  12px;
   align-items: center;
-
+}
+.container_right button:hover {
+  background-color: white;
+  color: #2470a0;
 }
 .pgcrs {
   background-color: #2470a0;
@@ -394,7 +400,10 @@ a{color:#336699;} */
   margin-top: 10px;
   background: transparent;
   margin-left: 96px;
-
+}
+.container_r button:hover {
+  background-color: white;
+  color: #2470a0;
 }
 .menu a:hover {
   background-color: white;
@@ -456,6 +465,11 @@ button {
   background: transparent;
   font-size: 10px;
 }
+.fclty button:hover {
+  background-color: #2470a0;
+  color: white;
+  border-color: white;
+}
 .libry {
   float: right;
   margin-right: 83px;
@@ -482,6 +496,11 @@ button {
   border-color: #000;
   background: transparent;
   font-size: 10px;
+}
+.libry button:hover {
+  background-color: #2470a0;
+  color: white;
+  border-color: white;
 }
 
 /*research*/
@@ -611,6 +630,9 @@ margin-left: 50px;
   color: white;
   background-color: #3e2e1e;
 }
+.centered_bottom button:hover {
+  background-color: #2470a0;
+}
 /*Activities*/
 .mob_act p {
   text-align: center;
@@ -623,6 +645,9 @@ margin-left: 50px;
 }
 .mob_act button {
   cursor: pointer;
+}
+.mob_act button:hover {
+  color: black;
 }
 .mob_act figure {
   padding-left: 50px;

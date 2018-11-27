@@ -104,8 +104,8 @@
      border-bottom-color:#ffffff;
  }
  #scroll:hover {
-     background-color:#blue;
-     opacity:1;filter:"alpha(opacity=100)";
+     background-color:blue;
+     opacity:1;
      -ms-filter:"alpha(opacity=100)";
  }
  /*end scroll*/
