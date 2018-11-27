@@ -1,16 +1,19 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/pcstyle.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Academy University</title>
 </head>
 <body>
-<header class="header_main">
+  <header class="header_container">
+<div class="header_main">
+  <div class="container_wrapperh">
   <div class="logom">
     <img src="images/784.png" alt="" >
     <img src="images/logoback.png" alt="">
@@ -24,40 +27,51 @@
   </div>
   <button class="hamburger">&#9776;</button>
   <button class="cross">&#735;</button>
-</header>
-  <main>
+
+
     <a href="#" id="scroll" style="display: none;"><span></span></a>
-    <div class="container_wrapper">
-      <div class="menu_mob">
+          <div class="menu_mob">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#ad">Admissions</a></li>
-          <li><a href="#resrch">Research</a></li>
-          <li><a href="#crs">Courses</a></li>
-          <li><a href="#abt">About us</a></li>
+          <li><a href="#adp">Admissions</a></li>
+          <li><a href="#resrchp">Research</a></li>
+          <li><a href="#crsp">Courses</a></li>
+          <li><a href="#abtp">About us</a></li>
           <li><a href="#cntct">Contact us</a></li>
         </ul>
       </div>
       <div class="menu_pc">
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">Admissions</a></li>
-          <li><a href="#">Research</a></li>
-          <li><a href="#">Campus life</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Contact us</a></li>
+          <li><a href="#adp">Admissions</a></li>
+          <li><a href="#resrchp">Research</a></li>
+          <li><a href="#crsp">Courses</a></li>
+          <li><a href="#abtp">About us</a></li>
+          <li><a href="#cntct">Contact us</a></li>
         </ul>
       </div>
+    </div>
+</header>
+<main>
       <div class="main">
         <div class="mob_main"><img src="images/mainoo.png" alt=""></div>
         <div class="pc_main"><img src="images/pc/main.png" alt=""></div>
+        <div class="container_wrapper">
+          <div class="main">
         <div class="hero_text"><h2>WELCOME TO ACADEMY UNIVERSITY</h2></div>
         <div class="hero_text1"><h4>Help shape the future of Education in Academy University</h4></div>
         <div class="main_button"><button>Read more</button></div>
       </div>
-      <div class="course" id="crs">
-        <h3>COURSES</h3>
+    </div>
+  </div>
+      <div class="head_tagc"id="crsp">
+      <h3>COURSES</h3>
+    </div>
+      <div class="container_wrapper">
+      <div class="course">
+        <div class="mob_crs">
           <div class="ug_course">
+            <img src="images/ugcrsimg.png" alt="">
             <div class="container_right">
               <h4>UG COURSE</h4>
               <p>Academy university is offering
@@ -71,6 +85,7 @@
           </div>
           <div class="pgcrs">
             <div class="pg_course">
+              <img src="images/pgcrsimg.png" alt="">
               <div class="container_r">
                 <h4>PG COURSE</h4>
                 <p>Academy University is offering
@@ -84,8 +99,43 @@
             </div>
           </div>
         </div>
-        <div class="Aboutus" id="abt">
-          <h3>About Us</h3>
+        <div class="pc_crs">
+          <div class="ug_course">
+            <img src="images/pc/ug.png" alt="">
+            <div class="container_right">
+              <h4>UG COURSE</h4>
+              <p>Academy university is offering
+                  4-year undergraduate degree
+                  programs in following disciplines
+                  with intake shown against them.</p>
+              <button>Read more</button>
+            </div>
+            <div class="container_left">
+            </div>
+          </div>
+          <div class="pgcrspc">
+            <div class="pg_course">
+              <img src="images/pc/pg.png" alt="">
+              <div class="container_r">
+                <h4>PG COURSE</h4>
+                <p>Academy University is offering
+                  2-year postgraduate degree
+                  programs in following disciplines
+                  with intake shown aganist them.</p>
+                <button>Read more</button>
+              </div>
+              <div class="container_l">
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+        <div class="head_taga" id="abtp">
+      <h3>About Us</h3>
+    </div>
+      <div class="container_wrapper">
+        <div class="Aboutus">
             <div class="mob_about">
               <div class="fclty">
                 <img src="images/fcltyimg.png" alt="">
@@ -123,8 +173,12 @@
             </div>
               </div>
             </div>
-            <div class="Research" id="resrch">
-              <h3>Research</h3>
+          </div>
+          <div class="head_tagr" id="resrchp">
+          <h3>Research</h3>
+        </div>
+          <div class="container_wrapper">
+            <div class="Research">
               <div class="mob_research">
                 <div class="resrch1">
                   <img src="images/resrch1img.png" alt="">
@@ -143,8 +197,8 @@
                 </div>
               </div>
               <div class="pc_research">
-                <div class="resrch1">
-                  <div class="research1">
+                <div class="resrch1p">
+                  <div class="research1p">
                   <h4>Light Emission and Lasing Research</h4>
                   <p>Solid state lighting and displays are becoming ubiquitous in our daily lives,
                     finding their place in televisions,cellphones,lamps and many common consumer appliances.
@@ -153,8 +207,8 @@
                   <button>Read more</button>
                   </div>
                 </div>
-              <div class="resrch2">
-              <div class="research2">
+              <div class="resrch2p">
+              <div class="research2p">
               <h4>Organic Photovoltaics</h4>
               <p>One of the ways to satisfy the emerging need for sustainable energy sources is
                 via the production of large-scale,cheap and easy to process solar cells.
@@ -165,22 +219,37 @@
           </div>
         </div>
       </div>
-      <div class="Admission" id="ad">
-        <h3>Admission</h3>
+    </div>
+      <div class="head_tagad" id="adp">
+    <h3>Admission</h3>
+  </div>
+    <div class="container_wrapper">
+      <div class="Admission">
         <div>
-          <div class="container">
+          <div class="containerm">
             <div id="mobile" class="mob_admin"><img src="images/admi.png" alt=""></div>
-            <div id="pc" class="pc_admin"><img src="images/pc/admin.png" alt=""></div>
             <div class="centered_up"><h4>Ready to take your skils to next level</h4></div>
             <div class="centered_middle"><h5>start learning the skill you need, start your free trail today</h5></div>
             <div class="centered_bottom"><button>Join us</button></div>
           </div>
         </div>
       </div>
-      <div class="Activities">
-        <div class="Activities_header">
+    </div>
+    <div id="pc" class="pc_admin"><img src="images/pc/admin.png" alt=""></div>
+            <div class="container_wrapper">
+            <div class="containerp">
+            <div class="centered_up"><h4>Ready to take your skils to next level</h4></div>
+            <div class="centered_middle"><h5>start learning the skill you need, start your free trail today</h5></div>
+            <div class="centered_bottom"><button>Join us</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="head_tagac">
           <h3>Activities</h3>
         </div>
+        <div class="Activities">
+        <div class="container_wrapper">
         <div class="mob_act">
           <h4>NEWS</h4>
           <div>
@@ -219,25 +288,25 @@
         <!-- act pc -->
         <div class="pc_act">
           <div class="conatiner">
-            <h3>NEWS</h3>
-            <div class="eve_content">
+            <div class="eve_content" id="a1">
+              <h3>NEWS</h3>
               <div class="eve_img">
                 <img src="images/pc/act1.png" alt="">
               </div>
               <h4>20-Aug</h4>
-              <p>Registration for student publications</P>
+              <h5>Registration for student publications</h5>
               <p>At least one author of each accepted
                   paper must register at full fee.</P>
               <a href="read">Read more</a>
           </div>
           <div class="conatiner">
-            <h3>EVENTS</h3>
-            <div class="eve_content">
+            <div class="eve_content" id="a2">
+              <h3>EVENTS</h3>
               <div class="eve_img">
                 <img src="images/pc/act3.png" alt="">
               </div>
               <h4>24-Aug</h4>
-              <p>Centre for nanoscience and nanotechnology Org.</p>
+              <h5>Centre for nanoscience and nanotechnology Org.</h5>
               <p>Nano science and nano technology
                 embraces the art of forming structures</P>
               <a href="read">Read more</a>
@@ -245,45 +314,47 @@
           </div>
         </div>
         <div class="conatiner">
-          <div class="eve_content">
+          <div class="eve_content" id="a3">
             <div class="eve_img">
               <img src="images/pc/act2.png" alt="">
             </div>
             <h4>25-Aug</h4>
-            <p>Academy university invites project proposal.</p>
+            <h5>Academy university invites project proposal.</h5>
             <p>Aiming to establish an explict of its
               achievments and undertakings</p>
             <a href="read">Read more</a>
+            <a href="view">View all</a>
           </div>
           <div class="conatiner">
-            <div class="eve_content">
+            <div class="eve_content" id="a4">
               <div class="eve_img">
                 <img src="images/pc/act4.png" alt="">
               </div>
               <h4>27-Aug</h4>
-              <p>Availability of software testing on Devops.</P>
+              <h5>Availability of software testing on Devops.</h5>
               <p>Development teams and operations department
                 normally have completely different motivations </P>
               <a href="read">Read more</a>
-            </div>
-            <div class="view">
-              <a href="view">view all</a>
               <a href="view">View all</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="campus_placement">
+  </div>
+  <div class="cp">
       <h3>Campus Placements</h3>
+    </div>
+    <div class="container_wrapper">
+    <div class="campus_placement">
       <div class="mob_campus">
+        <i class="fa fa-angle-left" style="font-size:36px;color:black"></i>
         <div class="wipro">
           <img src="images/wipro.png" alt="">
-          <i class="fa fa-angle-left" style="font-size:36px;color:black"></i>
           <img src="images/oracle.png" alt="">
           <img src="images/accentr.png" alt="">
-          <i class="fa fa-angle-right" style="font-size:36px;color:black"></i>
         </div>
+        <i class="fa fa-angle-right" style="font-size:36px;color:black"></i>
       </div>
       <div class="pc_campus">
         <img src="images/pc/c1.png" alt="">
@@ -293,6 +364,8 @@
         <img src="images/pc/c5.png" alt="">
       </div>
     </div>
+  </div>
+</main>
     <div class="footer_up">
       <div class="mob_f">
         <div class="left">
@@ -303,40 +376,50 @@
           <img src="images/youtubelogo.png" alt="">
           <img src="images/twitterlogo.png" alt="">
         </div>
+        <div class="right" id="cntct">
+          <h4>Contact us</h4>
+          <img src="images/call.png" alt="">
+          <p>080-04X-XXX</p><br>
+          <img src="images/mail.png" alt="">
+          <p>academyinfo@server.com</p><br>
+          <img src="images/lction.png" alt="">
+          <p>Banglore,KA</p>
+        </div>
       </div>
       <div class="pc_f">
+        <div class="container_wrapper">
         <div class="left">
           <img src="images/pc/flogo.png" alt="">
           <p>Academy<br>University</p>
-          <img src="images/pc/fb.png" alt="">
+          <img id="p" src="images/pc/fb.png" alt="">
           <img src="images/pc/yutb.png" alt="">
           <img src="images/pc/link.png" alt="">
           <img src="images/pc/twtr.png" alt="">
         </div>
         <div class="middle1">
           <ul class="middle">
-            <li>
+            <li id="li1">
               <h3>ORGANIZATION</h3>
               <p>About us</p>
               <p>Blog</p>
               <p>Contact</p>
               <p>Become a teacher</p>
             </li>
-            <li>
+            <li id="li2">
               <h3>LINKS</h3>
               <p>Courses</p>
               <p>Events</p>
               <p>Gallery</p>
               <p>Investors</p>
             </li>
-            <li>
+            <li id="li3">
               <h3>SUPPORT</h3>
               <p>Admission</p>
               <p>Forum</p>
               <p>Library Card</p>
               <p>Campus Info</p>
             </li>
-            <li>
+            <li id="li4">
               <h3>RECOMMEND</h3>
               <p>Learn More</p>
               <p>Business Contracts</p>
@@ -346,18 +429,21 @@
           </ul>
         </div>
       </div>
-      <div class="right" id="cntct">
+      <div class="container_wrapper">
+      <div class="rightp" id="cntct">
         <h4>Contact us</h4>
-        <img src="images/call.png" alt="">
+        <img id="call"src="images/pc/call.png" alt="">
         <p>080-04X-XXX</p><br>
-        <img src="images/mail.png" alt="">
+        <img src="images/pc/mail.png" alt="">
         <p>academyinfo@server.com</p><br>
-        <img src="images/lction.png" alt="">
+        <img src="images/pc/lction.png" alt="">
         <p>Banglore,KA</p>
       </div>
     </div>
+    </div>
   </div>
-</main>
+  </div>
+</div>
 <footer>
   <p>&copy; copyright 2018 by academy university all rights reserved</p>
 </footer>
