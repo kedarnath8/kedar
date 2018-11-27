@@ -248,10 +248,10 @@ a{color:#336699;} */
 .hero_text h2 {
   color: white;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-right: 41px;
   margin-left: -48px;
-  margin-top: -351px;
+  margin-top: -310px;
   font-weight: normal;
 }
 .hero_text1 {
@@ -261,8 +261,8 @@ a{color:#336699;} */
 }
 .hero_text1 h4 {
   color: white;
-  font-size: 1.3em;
-  margin-top: -241px;
+  font-size: 1.2em;
+  margin-top: -211px;
   margin-left: -26px;
   margin-right: 50px;
   font-weight: normal;
@@ -491,6 +491,7 @@ button {
   padding-top: 3px;
   padding-bottom: 3px;
   color: white;
+  margin-top: -50px;
   font-weight: normal;
   width: 94%;
 }
@@ -554,7 +555,7 @@ margin-left: 50px;
 }
 .Admission img {
   width: 100%;
-  margin-top: -19.6px;
+  margin-top: -30.6px;
   margin-bottom: -24px;
 }
 .Admission button {
@@ -580,8 +581,8 @@ margin-left: 50px;
 .centered_up h4{
   color: white;
   font-weight: normal;
-  font-size: 1.4em;
-  margin-left: -50px;
+  font-size: 1.2em;
+  margin-left: -40px;
   margin-top: -5px;
   text-align: center;
 }
@@ -594,9 +595,9 @@ margin-left: 50px;
 .centered_middle h5 {
   color: white;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: -16px;
-  margin-left: 4px;
+  margin-left: 15px;
   margin-right: 78px;
 }
 .centered_bottom {
@@ -695,7 +696,7 @@ margin-left: 50px;
   height: 10px;
 }
 .wipro img {
-  padding: 0px 15px 20px 15px;
+  padding: 0px 5px 20px 15px;
 }
 .wipro img {
   margin-left: 10px;
