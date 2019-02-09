@@ -63,7 +63,9 @@
    margin-top: -120px;
    padding: 50px;
  }
-
+ .menu_pc li a:hover {
+   color: black;
+ }
  .menu_pc li a{
    color:  white;
    text-decoration: none;
